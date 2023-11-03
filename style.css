@@ -1,0 +1,122 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5remi;
+}
+
+header p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e64a19;
+}
+
+/* Features section styles */
+section#features {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.feature {
+    text-align: center;
+    margin: 1rem;
+}
+
+.feature img {
+    max-width: 100%;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.feature p {
+    font-size: 1rem;
+}
+
+/* About section styles */
+section#about {
+    background-color: #f4f4f4;
+    padding: 2rem;
+}
+
+section#about h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section#about p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Video section styles */
+section#video {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+section#video h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
